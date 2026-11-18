@@ -307,3 +307,11 @@ p { margin: 0; }
 
 /* SoundStore: the brand mark is square */
 .brand img { border-radius: 7px; }
+
+/* Back to the main Eyceline Services site */
+.back-eyceline { display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px; border: 1.5px solid var(--line); border-radius: 999px; font-size: .86rem; font-weight: 650; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.back-eyceline:hover { border-color: var(--accent); color: var(--accent-deep); }
+.home .back-eyceline { color: #F4F9FC; border-color: var(--film-line); }
+.home .back-eyceline:hover { border-color: var(--film-accent); color: var(--film-accent); }
+@media (max-width: 520px) { .back-eyceline { padding: 4px 8px; font-size: .74rem; } .site-header .site-nav { gap: 4px 10px; } }
+@media (max-width: 400px) { .site-header .brand span { display: none; } }
