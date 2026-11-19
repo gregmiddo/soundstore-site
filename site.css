@@ -315,3 +315,9 @@ p { margin: 0; }
 .home .back-eyceline:hover { border-color: var(--film-accent); color: var(--film-accent); }
 @media (max-width: 520px) { .back-eyceline { padding: 4px 8px; font-size: .74rem; } .site-header .site-nav { gap: 4px 10px; } }
 @media (max-width: 400px) { .site-header .brand span { display: none; } }
+
+/* Pilot sites offer */
+.pilot-note { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 0; padding: 10px 14px; border: 1px solid var(--film-line); border-left: 3px solid var(--mark); border-radius: 8px; background: var(--film-2); color: var(--film-ink); font-size: .92rem; line-height: 1.45; max-width: 46rem; }
+.pilot-note b { font: 600 .66rem/1 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--mark); }
+.pilot-note a { color: var(--film-accent); font-weight: 600; white-space: nowrap; }
+.pilot-tag { display: inline-block; font: 600 .64rem/1 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: #fff; background: var(--mark); padding: 4px 7px; border-radius: 4px; margin-right: 6px; vertical-align: 2px; }
